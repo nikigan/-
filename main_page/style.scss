@@ -53,6 +53,7 @@ section {
     background: url(../img/spec.jpg) center no-repeat;
     background-size: cover;
     height: 660px;
+    z-index: 4;
   }
 
   .row {
@@ -96,6 +97,11 @@ section {
     margin-bottom: 64px;
   }
 
+  .right-bg {
+    height: 110%;
+    top: -1%;
+  }
+
   .bg-blue {
     background: #182441;
     z-index: 1;
@@ -104,7 +110,7 @@ section {
   .bg-white {
     background: #fff;
     background-clip: content-box;
-    z-index: 2;
+    z-index: 1;
   }
 
   .first-row {
@@ -284,6 +290,270 @@ section {
       line-height: 150%;
     }
   }
+
+  .third-row {
+    z-index: 3;
+    background: linear-gradient(293.07deg, #182441 14.26%, #0B121C 168.08%);
+    padding-top: 128px;
+    padding-left: 64px;
+
+    .header {
+      margin-bottom: 64px;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 130%;
+      color: #EEEEF4;
+    }
+
+    #review-carousel {
+      .name {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 150%;
+        color: #EEEEF4;
+        margin-bottom: 16px;
+        display: block;
+      }
+
+      .media-body,
+      .media {
+        margin-left: 32px;
+      }
+
+      .quote {
+        font-family: Noto Serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 98px;
+
+        color: #C49236;
+      }
+
+      .text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 170%;
+        color: #EDEDEF;
+      }
+
+      a {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        color: #C49236;
+        text-decoration: none;
+      }
+
+      .carousel-cell {
+        padding-right: 200px;
+      }
+
+
+    }
+
+    .num-div {
+      margin-top: 64px;
+      border-bottom: 3px solid #c49236;
+    }
+
+    .review-num {
+      align-self: center;
+      margin-left: 32px;
+      margin-right: 32px;
+      color: #EDEDEF;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+    }
+
+    .arrows {
+      margin-top: 64px;
+      display: flex;
+    }
+
+    .arrow {
+      position: relative;
+      transform-origin: center;
+      transform-box: fill-box;
+      display: flex;
+      justify-content: center;
+      border-top: none;
+      border: 1px #C49236 solid;
+      background: #C49236;
+      width: 83px;
+      height: 83px;
+
+      svg {
+        position: absolute;
+        top: 45%;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .fourth-row {
+    .header {
+      margin-top: 64px;
+      margin-bottom: 64px;
+    }
+
+    #thank-carousel {
+      .text {
+
+        .header {
+          margin-top: 128px;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 150%;
+          color: #182441;
+        }
+
+        p {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 170%;
+          color: #434548;
+        }
+      }
+    }
+
+    .num-div {
+      margin-top: 64px;
+      border-bottom: 3px solid #c49236;
+    }
+
+    .thank-num {
+      align-self: center;
+      margin-left: 32px;
+      margin-right: 32px;
+      color: #434548;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+    }
+
+    .arrows {
+      margin-top: 64px;
+      display: flex;
+    }
+
+    .arrow {
+      position: relative;
+      transform-origin: center;
+      transform-box: fill-box;
+      display: flex;
+      justify-content: center;
+      border-top: none;
+      border: 1px #C49236 solid;
+      background: #C49236;
+      width: 83px;
+      height: 83px;
+
+      svg {
+        position: absolute;
+        top: 45%;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+
+.section-posts {
+  .header {
+    margin-bottom: 64px;
+  }
+
+  .card2 {
+
+    &:hover {
+      .text-block {
+        background: #C49236;
+
+        .date {
+          color: #EEEEF4;
+        }
+
+        p {
+          color: #EEEEF4;
+        }
+
+        a {
+          color: #EEEEF4;
+        }
+      }
+    }
+  }
+
+  .img {
+    position: relative;
+
+    .text-box {
+      background: linear-gradient(325.58deg, #182441 -23.61%, #0B121C 168.1%);
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 165px;
+      height: 40px;
+      display: flex;
+      text-transform: uppercase;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 160%;
+      justify-content: center;
+      align-items: center;
+      letter-spacing: 0.1em;
+      color: #EEEEF4;
+    }
+  }
+
+  .text-block {
+    transition: all .3s;
+    padding: 32px;
+    background: #ffffff;
+
+    .date {
+      display: block;
+      margin-bottom: 8px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      color: #434548;
+    }
+
+    p {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      color: #182441;
+      margin-bottom: 32px;
+    }
+
+    a {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      color: #C49236;
+      text-decoration: none;
+    }
+  }
+
+  .button-row {
+    margin-top: 64px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -296,6 +566,27 @@ section {
       h3 {
         margin-top: 50px;
         text-align: center;
+      }
+    }
+  }
+
+  .section-directions {
+    .fourth-row {
+
+      #thank-carousel {
+        .carousel-cell {
+          .text {
+            .header {
+              margin-top: 32px;
+              margin-bottom: 32px;
+            }
+          }
+
+          .row {
+            justify-content: center;
+          }
+        }
+
       }
     }
   }
@@ -320,6 +611,34 @@ section {
 
   .carousel-row {
     justify-content: center;
+  }
+
+  .section-directions {
+    .third-row {
+      padding: 0 20px;
+      padding-top: 64px;
+
+      #review-carousel {
+        .carousel-cell {
+
+          padding: 15px;
+
+          .media-body,
+          .media {
+            margin-left: 0;
+          }
+
+          .quote {
+            display: none;
+          }
+        }
+      }
+
+      .arrows-row {
+        margin-right: -20px;
+      }
+    }
+
   }
 }
 
@@ -380,6 +699,31 @@ section {
       .row {
         text-align: center;
         justify-content: center;
+      }
+    }
+  }
+
+  .section-posts {
+    .card-row {
+      justify-content: center;
+    }
+
+    .card2.is-selected {
+
+      .text-block {
+        background: #C49236;
+
+        .date {
+          color: #EEEEF4;
+        }
+
+        p {
+          color: #EEEEF4;
+        }
+
+        a {
+          color: #EEEEF4;
+        }
       }
     }
   }
