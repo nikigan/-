@@ -11,11 +11,10 @@ $('.collapse').on('show.bs.collapse', function () {
   $('.collapse').collapse('hide');
 });
 
-$('.btn-left').click(function () {
+$('.btn-left[type="button"]').click(function () {
   let has = $(this).hasClass('active');
   $('.btn-left').removeClass('active');
   if (!has) $(this).addClass('active');
-  $($(this).data('pc-target')).fadeToggle();
 });
 
 function changeFluid() {

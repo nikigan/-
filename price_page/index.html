@@ -143,9 +143,59 @@
       <div class="white-bg d-none d-lg-block"></div>
       <div class="container car-container">
         <div class="row">
-          <div class="col-12 col-lg-4 left-block">
+          <div class="nav flex-column col-4 d-none d-lg-block" id="myTab" role="tablist">
             <h4>Выберите категорию:</h4>
-            <button class="btn-left active" type="button" data-toggle="collapse" data-target="#collapseLawHelp"
+            <button class="active btn-left" id="home-tab" href="#home" data-toggle="tab" aria-controls="home"
+              aria-selected="true">Юридическая помощь</button>
+            <button class="btn-left" id="home-tab" href="#home" data-toggle="tab" aria-controls="home"
+              aria-selected="true">Гражданское судопроизводство</button>
+            <button class="btn-left" id="home-tab" href="#home" data-toggle="tab" aria-controls="home"
+              aria-selected="true">Уголовное судопроизводство</button>
+            <button class="btn-left" id="home-tab" href="#home" data-toggle="tab" aria-controls="home"
+              aria-selected="true">Арбитражное судопроизводство</button>
+            <button class="btn-left" id="home-tab" href="#home" data-toggle="tab" aria-controls="home"
+              aria-selected="true">Административное судопроизводство</button>
+            </ul>
+          </div>
+          <div class="tab-content offset-1 col-7 right-block d-none d-lg-block" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <div class="row">
+                <div class="col-8">
+                  <span class="annotation">Вид юридической помощи</span>
+                </div>
+                <div class="col-4">
+                  <span class="annotation">Стоимость услуги</span>
+                </div>
+              </div>
+              <div class="row price-line">
+                <div class="col-8 left-word">Простая устная консультация</div>
+                <div class="col-4 text-center">от 1500 ₽</div>
+              </div>
+              <div class="row price-line">
+                <div class="col-8 left-word">Устная консультация, требующая изучения и анализа документов</div>
+                <div class="col-4 text-center">от 1500 ₽</div>
+              </div>
+              <div class="row price-line">
+                <div class="col-8 left-word">Простая письменная консультация, составление справки</div>
+                <div class="col-4 text-center">от 1500 ₽</div>
+              </div>
+              <div class="row price-line">
+                <div class="col-8 left-word">Составление ходатайства, простого искового заявления, заявления о
+                  выдаче
+                  судебного приказа</div>
+                <div class="col-4 text-center">от 1500 ₽</div>
+              </div>
+              <div class="row price-line">
+                <div class="col-8 left-word">Составление сложного искового заявления, апелляционной, кассационной
+                  жалобы,
+                  иных жалоб и заявлений, связанное с изучением и анализом документов</div>
+                <div class="col-4 text-center">от 1500 ₽</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 left-block d-block d-lg-none">
+            <h4>Выберите категорию:</h4>
+            <button class="btn-left" type="button" data-toggle="collapse" data-target="#collapseLawHelp"
               aria-expanded="false" aria-controls="collapseLawHelp" data-pc-target="#lawHelp">Юридическая
               помощь</button>
             <div class="collapse d-lg-none" id="collapseLawHelp">
@@ -267,39 +317,38 @@
               </div>
             </div>
           </div>
-          <div class="offset-1 col-7 right-block d-none d-lg-block" id="lawHelp">
-            <div class="row">
-              <div class="col-8">
-                <span class="annotation">Вид юридической помощи</span>
-              </div>
-              <div class="col-4">
-                <span class="annotation">Стоимость услуги</span>
-              </div>
-            </div>
-            <div class="row price-line">
-              <div class="col-8 left-word">Простая устная консультация</div>
-              <div class="col-4 text-center">от 1500 ₽</div>
-            </div>
-            <div class="row price-line">
-              <div class="col-8 left-word">Устная консультация, требующая изучения и анализа документов</div>
-              <div class="col-4 text-center">от 1500 ₽</div>
-            </div>
-            <div class="row price-line">
-              <div class="col-8 left-word">Простая письменная консультация, составление справки</div>
-              <div class="col-4 text-center">от 1500 ₽</div>
-            </div>
-            <div class="row price-line">
-              <div class="col-8 left-word">Составление ходатайства, простого искового заявления, заявления о выдаче
-                судебного приказа</div>
-              <div class="col-4 text-center">от 1500 ₽</div>
-            </div>
-            <div class="row price-line">
-              <div class="col-8 left-word">Составление сложного искового заявления, апелляционной, кассационной жалобы,
-                иных жалоб и заявлений, связанное с изучением и анализом документов</div>
-              <div class="col-4 text-center">от 1500 ₽</div>
-            </div>
-          </div>
         </div>
+      </div>
+    </section>
+
+    <section class="section-useless-text">
+      <div class="container">
+        <p>
+          *В районах Крайнего Севера и приравненных к ним районах при применении указанных ставок необходимо учитывать
+          действующие в них районные коэффициенты по сравнению с г. Красноярском и южными районами края.
+        </p>
+
+        <p>
+          В указанные ставки включены: налог с дохода адвокатов, а также иные обязательные отчисления с доходов
+          адвоката,
+          установленные действующим законодательством и решениями органов адвокатского сообщества и адвокатскими
+          образованиями.
+        </p>
+
+        <p>
+          Под судоднем или днем занятости адвоката понимается время в течение одних календарных суток, когда адвокат
+          выполняет конкретное поручение доверителя, независимо от фактической длительности его работы.
+        </p>
+
+        <p>
+          Юридическая помощь, которая оказывается в нерабочее время (выходные и нерабочие праздничные дни, ночное время,
+          подлежит оплате не менее чем в двойном размере.
+        </p>
+
+        <p>
+          Конкретный размер гонорара адвоката определяется им по соглашению с доверителем и указывается в соглашении об
+          оказании юридической помощи.
+        </p>
       </div>
     </section>
   </main>

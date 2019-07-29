@@ -207,6 +207,26 @@
     }
   }
 
+  .section-useless-text {
+    margin-top: 128px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 170%;
+
+    color: #818796;
+
+    @media screen and (max-width: 768px) {
+      margin-top: 32px;
+    }
+
+    @media screen and (max-width: 576px) {
+      font-size: 14px;
+      line-height: 150%;
+    }
+  }
+
 
   @media screen and (max-width: 576px) {
     h2 {
