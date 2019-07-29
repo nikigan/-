@@ -1,0 +1,89 @@
+footer {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: linear-gradient(314.39deg, #182441 -23.61%, #0B121C 168.1%);
+    height: 100%;
+    padding-top: 100px;
+    margin-top: 128px;
+}
+
+footer * {
+    margin: 0;
+    padding: 0;
+}
+
+#logo-footer {
+    text-align: center;
+    display: none;
+}
+
+.footer-contacts {
+    color: #EDEDEF;
+}
+
+.footer-contacts h5 {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 10%;
+    line-height: 160%;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #EDEDEF;
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+    color: #EDEDEF;
+}
+
+.footer-url-body {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer-phone {
+    font-size: 24px;
+    font-weight: 500;
+    color: #C49236;
+    line-height: 170%;
+}
+
+.footer-social {
+    font-size: 24px;
+    font-weight: 300;
+    color: #C49236;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #C49236;
+}
+
+.footer-about {
+    margin-bottom: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #EDEDEF;
+}
+
+.footer-about a {
+    text-decoration: none;
+    color: #EDEDEF;
+}
+
+.copyright {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    color: #646975;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    display: block;
+}

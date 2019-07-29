@@ -1,0 +1,218 @@
+  $white: #EEEEF4;
+  $gold: #C49236;
+
+  h2 {
+    font-family: Noto Serif TC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+    color: #EEEEF4;
+  }
+
+  header {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    background: transparent;
+  }
+
+  .section-first-block {
+    background: linear-gradient(320.5deg, #182441 -23.61%, #0B121C 168.1%);
+    margin-top: 0;
+    padding: 100px 0 128px 0;
+
+    .breadcrumb {
+      background: transparent;
+      border: 0;
+      border-radius: 0;
+      padding: 0;
+      margin-bottom: 64px;
+      margin-top: 16px;
+      font-size: 12px;
+      line-height: 16px;
+
+      >li+li::before {
+        content: "→\00a0";
+        color: $gold;
+      }
+
+      a {
+        color: $gold;
+
+        &.active {
+          color: $white;
+        }
+      }
+
+      @media (max-width: 576px) {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 32px;
+      }
+    }
+
+    .quote {
+      font-family: Noto Serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 72px;
+      line-height: 98px;
+      text-transform: capitalize;
+      color: #C49236;
+      margin-right: 32px;
+
+      @media (max-width: 576px) {
+        margin-right: 8px;
+      }
+    }
+
+    .media-body {
+      p {
+        margin-top: 32px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 170%;
+        color: #EEEEF4;
+
+        @media (max-width: 576px) {
+          margin-top: 24px;
+        }
+      }
+    }
+
+    @media (max-width: 576px) {
+      padding-bottom: 0;
+    }
+  }
+
+  .section-categories {
+    margin-top: 0;
+    padding-top: 128px;
+    position: relative;
+    padding-bottom: 64px;
+
+    .collapse,
+    .collapsing {
+      background: #FFFFFF;
+    }
+
+    @media screen and (max-width: 768px) {
+      .car-container {
+        padding: 0;
+
+        .price-line {
+          padding-left: 15px;
+          padding-right: 15px;
+
+          .left-word {
+            margin-bottom: 16px;
+          }
+        }
+      }
+    }
+
+
+    .white-bg {
+      position: absolute;
+      background: #ffffff;
+      height: 100%;
+      width: 65%;
+      right: 0;
+      top: 0;
+    }
+
+    .btn-left {
+      display: flex;
+      width: 100%;
+      height: 84px;
+      background: transparent;
+      border: 0;
+      transition: background-color .3s;
+      text-align: left;
+      padding-left: 30px;
+      padding-right: 30px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      color: #C49236;
+
+      &:focus {
+        outline: none;
+      }
+
+      &:hover,
+      &.active {
+        background: #FFFFFF;
+      }
+
+      &.active {
+        &:after {
+          @media screen and (max-width: 768px) {
+            transform: rotate(90deg);
+          }
+        }
+      }
+
+      &:after {
+        transition: transform .3s;
+        content: '→';
+        display: block;
+        margin-left: auto;
+        font-family: IBM Plex Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+      }
+    }
+
+    .annotation {
+      font-family: IBM Plex Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 160%;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #818796;
+    }
+
+    .price-line {
+      padding: 60px 0 32px 0;
+      font-family: IBM Plex Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 170%;
+      color: #434548;
+
+      &:not(:last-child) {
+        border-bottom: 1px solid #C8D0E3;
+      }
+
+      .text-center,
+      .text-left {
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 150%;
+        color: #182441;
+      }
+    }
+  }
+
+
+  @media screen and (max-width: 576px) {
+    h2 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 130%;
+    }
+  }

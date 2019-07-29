@@ -1,0 +1,330 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #F0F0F5;
+    min-height: 100%;
+}
+
+/*=================cases-section==============*/
+
+.cases-section {
+    position: relative;
+    background: linear-gradient(314.39deg, #182441 -23.61%, #0B121C 168.1%);
+    /*    background: #111b31;*/
+    bottom: 10px;
+    padding-top: 100px;
+}
+
+.breadcrumb {
+    padding: 0px;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #C49236;
+}
+
+.breadcrumb .active {
+    color: #959595;
+}
+
+.breadcrumb > li + li:before {
+    padding: 0 5px;
+    color: #C49236;
+    content: "→\00a0";
+}
+
+.topic {
+    text-transform: uppercase;
+    color: #818796;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 48px;
+}
+
+.topic-huge {
+    font-family: 'Noto Serif TC', serif;
+    color: #EEEEF4;
+    font-size: 36px;
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+.topic-huge h2 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.topic-huge span {
+    font-weight: 300;
+}
+
+.commas {
+    font-family: 'Noto Serif', serif;
+    font-size: 72px;
+    color: #C49236;
+}
+
+.media-body {
+    font-size: 16px;
+    color: #EEEEF4;
+    margin-top: 35px;
+    margin-left: 30px;
+    line-height: 25px;
+}
+
+.statistic {
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.statistic-top {
+    font-family: 'Noto Serif', serif;
+    color: #C49236;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.statistic-top span {
+    font-size: 94px;
+    font-weight: 400;
+}
+
+.statistic-top span:not(#unmargin) {
+    margin-right: 10px;
+}
+
+.statistic-bot {
+    color: #EEEEF4;
+    width: 200px;
+    margin-top: 10px;
+}
+
+
+/*=================cards-section==============*/
+
+.cards-section h3 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #182441;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.case-card {
+    background: #182441;
+    padding: 30px 25px;
+    min-height: 240px;
+    max-height: 360px;
+    transition: all .3s;
+    margin-bottom: 30px;
+}
+
+.case-card:hover {
+    background: #C49236;
+}
+
+.case-card:hover .case-card-link {
+    color: #EEEEF4;
+}
+
+.case-card-topic {
+    font-size: 24px;
+    font-weight: 700;
+    color: #EEEEF4;
+}
+
+.case-card-description {
+    font-size: 16px;
+    font-weight: 300;
+    color: #EEEEF4;
+}
+
+.case-card-link {
+    font-size: 16px;
+    font-weight: 600;
+    color: #C49236;
+    transition: all .3s;
+}
+
+.case-card-click {
+    text-decoration: none;
+}
+
+.case-card-click:hover {
+    text-decoration: none;
+}
+
+.btn-main {
+    display: flex;
+    height: 85px;
+    width: 360px;
+    background: #C49236;
+    color: #EDEDEF;
+    text-align: left;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 18px;
+    border: 0;
+    padding: 34px 40px;
+    margin-top: 34px;
+    margin-bottom: 100px;
+    transition: all .3s;
+}
+
+.btn-main::after {
+    font-size: 24px;
+    content: '→';
+    display: block;
+    margin-left: auto;
+}
+
+.btn-main:hover {
+    background: #dea53b;
+}
+
+/*=================section-other==============*/
+
+.section-other {
+    margin-bottom: 128px;
+}
+
+.section-other h3 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #182441;
+}
+
+.section-other .first-row {
+    margin-bottom: 46px;
+}
+
+.section-other .arrows {
+    margin-right: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.section-other .arrows .arrow {
+    position: relative;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    transform-box: fill-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-top: none;
+    border: 1px #FFFFFF solid;
+    background: #FFFFFF;
+    width: 83px;
+    height: 83px;
+}
+
+.section-other .arrows .arrow svg {
+    color: #C49236;
+    position: absolute;
+    top: 45%;
+}
+
+.section-other .arrows .arrow:focus {
+    outline: none;
+}
+
+.section-other .card .card-header {
+    position: relative;
+    padding: 0;
+}
+
+.section-other .card .pin {
+    position: absolute;
+    width: 165px;
+    height: 40px;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(325.58deg, #182441 -23.61%, #0B121C 168.1%);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 40px;
+    text-align: center;
+}
+
+.section-other .card {
+    max-width: 360px;
+    height: 481px;
+    border-radius: 0;
+}
+
+.section-other .card .card-body {
+    padding: 32px 50px 32px 30px;
+}
+
+.section-other .card .text-small {
+    font-weight: 400;
+    font-size: 14px;
+    color: #434548;
+}
+
+.section-other .card .card-text {
+    font-weight: 600;
+    font-size: 16px;
+    color: #182441;
+}
+
+.section-other .card-link {
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #C49236;
+    text-decoration: none;
+}
+
+.section-other .num-div {
+    margin-top: 32px;
+    border-bottom: 3px #C49236 solid;
+}
+
+.section-other .other-num {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.is-selected .card {
+    background: #C49236;
+}
+
+.is-selected .card .card-body .text-small,
+.is-selected .card .card-body .card-text,
+.is-selected .card .card-body .card-link {
+    color: #EEEEF4;
+}

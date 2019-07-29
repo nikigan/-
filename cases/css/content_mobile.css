@@ -1,0 +1,136 @@
+@media only screen and (max-width: 991px) {
+
+    /*===============cases-section============*/
+    .statistic {
+        margin-top: 50px;
+    }
+
+    .media-body {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    /*=================cases-section============*/
+    .cases-section {
+        padding-top: 64px;
+    }
+
+    .topic {
+        font-size: 10px;
+        margin-top: 20px;
+    }
+
+    .topic-huge {
+        font-size: 24px;
+        line-height: 20px;
+    }
+
+    .topic-huge h2 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .topic-huge span {
+        font-weight: 100;
+        font-size: 24px;
+    }
+
+    .media {
+        margin: auto;
+        max-width: 300px;
+    }
+
+    .media-body {
+        margin-left: 20px;
+        max-width: 240px;
+    }
+
+    .statistic {
+        text-align: center;
+        max-width: 220px;
+        margin-bottom: 0;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .statistic-bot {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .statistic-row {
+        padding-bottom: 50px;
+    }
+
+    /*===============cards-section============*/
+
+    .cards-section h3 {
+        font-size: 24px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .case-card {
+        min-height: 360px;
+    }
+
+    .case-card-topic {
+        font-size: 20px;
+    }
+
+    .btn-main {
+        background: #fff;
+        color: #C49236;
+        width: 100%;
+        margin-top: 32px;
+        margin-bottom: 64px;
+        margin-right: -15px;
+    }
+
+    .btn-main:hover {
+        background: #C49236;
+        color: #fff;
+    }
+
+    /*==============section-other==============*/
+
+    .section-other {
+        margin-bottom: 64px;
+    }
+
+    .section-other h3 {
+        font-size: 24px;
+        margin: auto;
+    }
+
+    .section-other .first-row {
+        margin-bottom: 32px;
+    }
+
+    .section-other .arrows.mobile {
+        margin-top: 32px;
+    }
+
+    .section-other .arrows.mobile .arrow {
+        background: #C49236;
+        border-color: #C49236;
+    }
+
+    .section-other .num-div {
+        margin-top: 32px;
+        border-bottom: 3px #C49236 solid;
+    }
+
+    .section-other .other-num {
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+        margin-left: 32px;
+        margin-right: 32px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+    }
+}

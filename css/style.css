@@ -1,5 +1,56 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700,800|Noto+Serif+TC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC:400,500,600,700&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:700&display=swap&subset=cyrillic-ext');
+
+body,
+html {
+  background: #F0F0F5;
+  font-family: IBM Plex Sans;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 130%;
+  color: #182441;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+section {
+  margin-top: 128px;
+}
+
+.grad-bg {
+  background: linear-gradient(320.5deg, #182441 -23.61%, #0B121C 168.1%);
+}
+
+
+header {
+  transition: all .35s;
+}
+
+.hidden {
+  transform: translateY(-100%) scaleY(0);
+}
+
+
+header {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+}
 
 .btn-main {
   display: flex;
@@ -15,6 +66,7 @@
   line-height: 18px;
   border: 0;
   padding: 34px 40px;
+  transition: background-color .3s;
 }
 
 .btn-main::after {
@@ -22,4 +74,8 @@
   content: '→';
   display: block;
   margin-left: auto;
+}
+
+.btn-main:hover {
+  background: #dea53b;
 }

@@ -80,9 +80,14 @@ function setCell() {
       contain: true,
       pageDots: false,
     });
+
     $('.car-container')
       .removeClass('container')
       .addClass('container-fluid');
+
+    $cardCarousel.data('flickity').options.pageDots = true;
+    console.log($cardCarousel.data('flickity').options.pageDots);
+
   } else {
     $carousel = $('#my-carousel').flickity({
       groupCells: 3,
@@ -107,3 +112,19 @@ function setNumbers() {
   let dataThank = $('#thank-carousel').data('flickity');
   $('.thank-num').html(`<span>0${dataThank.selectedIndex + 1}/0${(dataThank.cells.length)}</span>`);
 }
+
+
+$(document).scroll(function () {
+  let header = $('header');
+
+  let headerPos = header.offset().top + header.outerHeight();
+  let firstBlockPos = $('.section-first-block').offset().top + $('.section-first-block').outerHeight();
+  if ((headerPos > firstBlockPos) && ($(window).width() >= 992)) {
+    $('.phone-number, .get-consultation-block').removeClass('d-lg-none');
+    $('.main-header').removeClass('col-lg-7');
+  } else {
+    $('.phone-number, .get-consultation-block').addClass('d-lg-none');
+    $('.main-header').addClass('col-lg-7');
+  }
+
+});
