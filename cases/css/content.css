@@ -39,7 +39,7 @@ body {
     color: #959595;
 }
 
-.breadcrumb > li + li:before {
+.breadcrumb>li+li:before {
     padding: 0 5px;
     color: #C49236;
     content: "→\00a0";
@@ -73,6 +73,7 @@ body {
 
 .commas {
     font-family: 'Noto Serif', serif;
+    font-weight: 900;
     font-size: 72px;
     color: #C49236;
 }
