@@ -8,16 +8,6 @@ h2 {
   color: #EEEEF4;
 }
 
-header {
-  font-family: IBM Plex Sans;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 18px;
-  letter-spacing: 0.02em;
-  background: transparent;
-}
-
 .section-first-block {
   background: linear-gradient(320.5deg, #182441 -23.61%, #0B121C 168.1%);
   margin-top: 0;

@@ -22,8 +22,6 @@ function changeFluid() {
     $('.car-container')
       .removeClass('container')
       .addClass('container-fluid');
-    $($('.btn-left').not('.active').attr('data-target')).collapse('hide');
-    $($('.btn-left.active').attr('data-target')).collapse('show');
   } else {
     $('.car-container')
       .removeClass('container-fluid')

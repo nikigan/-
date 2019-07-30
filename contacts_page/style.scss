@@ -1,0 +1,333 @@
+  $white: #EEEEF4;
+  $gold: #C49236;
+
+  h2 {
+    font-family: Noto Serif TC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+    color: #EEEEF4;
+  }
+
+  header {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    background: transparent;
+  }
+
+  a {
+    color: $gold;
+
+    &:hover {
+      color: $gold;
+      text-decoration: none;
+    }
+  }
+
+  .quote {
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 98px;
+    text-transform: capitalize;
+    color: #C49236;
+    margin-right: 32px;
+
+    @media (max-width: 576px) {
+      margin-right: 8px;
+    }
+  }
+
+  .section-first-block {
+    background: linear-gradient(320.5deg, #182441 -23.61%, #0B121C 168.1%);
+    margin-top: 0;
+    padding: 100px 0 128px 0;
+
+    .annotation {
+      margin-top: 32px;
+      display: block;
+      font-family: IBM Plex Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 160%;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #818796;
+    }
+
+    .line {
+      font-family: IBM Plex Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 170%;
+      color: #EEEEF4;
+    }
+
+    .social {
+      font-family: IBM Plex Sans;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21px;
+      color: #C49236;
+      margin-right: 30px;
+    }
+
+    .phone-number {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 130%;
+    }
+
+    .email {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 130%;
+    }
+
+    .breadcrumb {
+      background: transparent;
+      border: 0;
+      border-radius: 0;
+      padding: 0;
+      margin-bottom: 64px;
+      margin-top: 16px;
+      font-size: 12px;
+      line-height: 16px;
+
+      >li+li::before {
+        content: "→\00a0";
+        color: $gold;
+      }
+
+      a {
+        color: $gold;
+
+        &.active {
+          color: $white;
+        }
+      }
+
+
+      @media (max-width: 576px) {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 32px;
+      }
+    }
+
+
+
+    .media-body {
+      p {
+        margin-top: 32px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 170%;
+        color: #EEEEF4;
+
+
+
+        @media (max-width: 576px) {
+          margin-top: 24px;
+        }
+      }
+    }
+
+    @media (max-width: 576px) {
+      padding-bottom: 32px;
+    }
+  }
+
+  .section-form {
+    margin: 0;
+    padding-bottom: 128px;
+    background: url(../img/map.jpg) center no-repeat;
+    background-size: cover;
+
+    .header {
+      margin-bottom: 64px;
+
+      @media (max-width: 576px) {
+        margin-bottom: 32px;
+      }
+    }
+
+    .btn-main {
+      margin-top: 64px;
+
+      @media (max-width: 576px) {
+        margin-right: -15px;
+      }
+    }
+
+    .form {
+      padding: 128px;
+      padding-right: 150px;
+      padding-bottom: 0;
+      background: #ffffff;
+
+      @media (max-width: 576px) {
+        padding: 30px;
+        padding-bottom: 0;
+      }
+
+      .form-group {
+        label {
+          font-style: normal;
+          font-weight: bold;
+          font-size: 12px;
+          line-height: 160%;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: #C49236;
+        }
+
+        .form-control {
+          padding: 0;
+          border: 0;
+          border-radius: 0;
+          border-bottom: 1px solid #818796;
+          transition: border-color .3s;
+
+          &:focus {
+            outline: 0;
+            box-shadow: none;
+            border-color: #C49236;
+          }
+
+          &::placeholder {
+            font-family: IBM Plex Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 170%;
+            color: #818796;
+          }
+        }
+      }
+    }
+
+    .map-img {
+      width: 100%;
+      height: auto;
+    }
+
+    @media (max-width: 768px) {
+      background: transparent;
+      padding-bottom: 0;
+    }
+  }
+
+
+  .modal {
+
+    .close {
+      position: absolute;
+      top: 0;
+      right: -8%;
+    }
+
+    .modal-content {
+      border-radius: 0;
+      padding: 90px;
+
+      @media (max-width: 768px) {
+        padding: 30px;
+      }
+    }
+
+    .modal-header {
+      border: 0;
+      border-radius: 0;
+    }
+
+    .header {
+      margin-bottom: 32px;
+
+      @media (max-width: 576px) {
+        margin-bottom: 32px;
+      }
+    }
+
+    .header-text {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 170%;
+      margin-bottom: 32px;
+    }
+
+    .btn-main {
+      margin-top: 64px;
+    }
+
+    .form {
+      background: #ffffff;
+
+      .form-group {
+        label {
+          font-style: normal;
+          font-weight: bold;
+          font-size: 12px;
+          line-height: 160%;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: #C49236;
+        }
+
+        .form-control {
+          padding: 0;
+          border: 0;
+          border-radius: 0;
+          border-bottom: 1px solid #818796;
+          transition: border-color .3s;
+
+          &:focus {
+            outline: 0;
+            box-shadow: none;
+            border-color: #C49236;
+          }
+
+          &::placeholder {
+            font-family: IBM Plex Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 170%;
+            color: #818796;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    margin-top: 0;
+  }
+
+
+  @media screen and (max-width: 576px) {
+    h2 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 130%;
+    }
+
+    h3 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 130%;
+    }
+  }

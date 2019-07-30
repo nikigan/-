@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="../css/footer.css">
   <link rel="stylesheet" href="../css/footer_mobile.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>Услуги и цены</title>
+  <title>Контакты</title>
 </head>
 
 <body>
@@ -89,7 +89,7 @@
             </li>
           </ul>
           <div class="get-consultation-block">
-            <div class="get-button nav-item" data-toggle="modal" data-target="#myModal">
+            <div class="get-button nav-item" data-toggle="modal" data-target="#exampleModalCenter">
               <span>Получить консультацию</span>
             </div>
           </div>
@@ -117,241 +117,90 @@
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="../main_page/index.html">Главная</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Услуги и цены</li>
+            <li class="breadcrumb-item active" aria-current="page">Контакты</li>
           </ol>
         </nav>
+        <h2>Свяжитесь со мной</h2>
         <div class="row">
-          <div class="col-lg-5 col-12">
-            <h2>Услуги и цены</h2>
+          <div class="col-lg-5 col-12 order-2 order-md-1">
+            <span class="annotation">офис</span>
+            <span class="line">г. Красноярск, пр. Мира, д. 91, CITY HALL, офис 2-14</span>
+            <span class="annotation">делюсь своим опытом в социальных сетях</span>
+            <span class="social">Instagram</span>
+            <span class="social">YouTube</span>
           </div>
-          <div class="offset-lg-1 col-lg-6 col-12">
-            <div class="media">
-              <span class="align-self-start quote">“</span>
-              <div class="media-body">
-                <p>Указанные ставки фиксируют минимальный уровень* сложившейся в г. Красноярске и южных районах
-                  Красноярского края стоимости оплаты юридической помощи адвокатов, в том числе и для целей применения
-                  критерия разумности, установленного в части 2 ст.110 Арбитражного процессуального кодекса РФ и части
-                  первой ст.100 Гражданского процессуального кодекса РФ.</p>
-              </div>
-            </div>
+          <div class="offset-lg-2 col-lg-5 col-12 order-1 order-md-2">
+            <span class="annotation">телефон</span>
+            <a href="tel:+7 923 354-12-02"><span class="phone-number">+7 923 354-12-02</span></a>
+            <span class="annotation">E-mail</span>
+            <a href="mailto:kolosovanton1@yandex.ru"><span class="email">kolosovanton1@yandex.ru</span></a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section-categories">
-      <div class="white-bg d-none d-lg-block"></div>
-      <div class="container car-container">
+    <section class="section-form">
+      <div class="container-fluid p-0">
         <div class="row">
-          <div class="nav flex-column col-4 d-none d-lg-block" id="myTab" role="tablist">
-            <h4>Выберите категорию:</h4>
-            <button class="active btn-left" id="home-tab" href="#home" data-toggle="tab" aria-controls="home"
-              aria-selected="true">Юридическая помощь</button>
-            <button class="btn-left" id="home-tab" href="#home" data-toggle="tab" aria-controls="home"
-              aria-selected="true">Гражданское судопроизводство</button>
-            <button class="btn-left" id="home-tab" href="#home" data-toggle="tab" aria-controls="home"
-              aria-selected="true">Уголовное судопроизводство</button>
-            <button class="btn-left" id="home-tab" href="#home" data-toggle="tab" aria-controls="home"
-              aria-selected="true">Арбитражное судопроизводство</button>
-            <button class="btn-left" id="home-tab" href="#home" data-toggle="tab" aria-controls="home"
-              aria-selected="true">Административное судопроизводство</button>
-            </ul>
-          </div>
-          <div class="tab-content offset-1 col-7 right-block d-none d-lg-block" id="myTabContent">
-            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-              <div class="row">
-                <div class="col-8">
-                  <span class="annotation">Вид юридической помощи</span>
-                </div>
-                <div class="col-4">
-                  <span class="annotation">Стоимость услуги</span>
-                </div>
+          <div class="ml-auto col-lg-7 col-12 form">
+            <h3 class="header">Или оставьте заявку на консультацию</h3>
+            <form>
+              <div class="form-group">
+                <label for="my-input">Имя</label>
+                <input id="name" class="form-control" type="text" placeholder="например, Иван Иванов">
               </div>
-              <div class="row price-line">
-                <div class="col-8 left-word">Простая устная консультация</div>
-                <div class="col-4 text-center">от 1500 ₽</div>
+              <div class="form-group">
+                <label for="my-input">Номер телефона</label>
+                <input id="phone" class="form-control" type="tel" placeholder="+7(999)999-99-99">
               </div>
-              <div class="row price-line">
-                <div class="col-8 left-word">Устная консультация, требующая изучения и анализа документов</div>
-                <div class="col-4 text-center">от 1500 ₽</div>
+              <div class="form-group">
+                <label for="my-input">Краткая суть проблемы</label>
+                <textarea id="problem" class="form-control" type="text" placeholder="Текст сообщения"></textarea>
               </div>
-              <div class="row price-line">
-                <div class="col-8 left-word">Простая письменная консультация, составление справки</div>
-                <div class="col-4 text-center">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-8 left-word">Составление ходатайства, простого искового заявления, заявления о
-                  выдаче
-                  судебного приказа</div>
-                <div class="col-4 text-center">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-8 left-word">Составление сложного искового заявления, апелляционной, кассационной
-                  жалобы,
-                  иных жалоб и заявлений, связанное с изучением и анализом документов</div>
-                <div class="col-4 text-center">от 1500 ₽</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-lg-4 left-block d-block d-lg-none">
-            <h4>Выберите категорию:</h4>
-            <button class="btn-left" type="button" data-toggle="collapse" data-target="#collapseLawHelp"
-              aria-expanded="false" aria-controls="collapseLawHelp" data-pc-target="#lawHelp">Юридическая
-              помощь</button>
-            <div class="collapse d-lg-none" id="collapseLawHelp">
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-            </div>
-            <button class="btn-left" type="button" data-toggle="collapse" data-target="#collapseGrazdHelp"
-              aria-expanded="false" aria-controls="collapseGrazdHelp">Гражданское судопроизводство</button>
-            <div class="collapse d-lg-none" id="collapseGrazdHelp">
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-            </div>
-            <button class="btn-left" type="button" data-toggle="collapse" data-target="#collapseUgol"
-              aria-expanded="false" aria-controls="collapseUgol">Уголовное судопроизводство</button>
-            <div class="collapse d-lg-none" id="collapseUgol">
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-            </div>
-            <button class="btn-left" type="button" data-toggle="collapse" data-target="#collapseArbit"
-              aria-expanded="false" aria-controls="collapseArbit">Арбитражное судопроизводство</button>
-            <div class="collapse d-lg-none" id="collapseArbit">
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-            </div>
-            <button class="btn-left" type="button" data-toggle="collapse" data-target="#collapseAdmin"
-              aria-expanded="false" aria-controls="collapseAdmin">Административное судопроизводство</button>
-            <div class="collapse d-lg-none" id="collapseAdmin">
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-              <div class="row price-line">
-                <div class="col-12 left-word">Простая устная консультация</div>
-                <div class="col-4 text-left">от 1500 ₽</div>
-              </div>
-            </div>
+            </form>
+            <button class="btn-main ml-auto col-lg-7 col-md-10 col-12">Оставить заявку</button>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section class="section-useless-text">
-      <div class="container">
-        <p>
-          *В районах Крайнего Севера и приравненных к ним районах при применении указанных ставок необходимо учитывать
-          действующие в них районные коэффициенты по сравнению с г. Красноярском и южными районами края.
-        </p>
-
-        <p>
-          В указанные ставки включены: налог с дохода адвокатов, а также иные обязательные отчисления с доходов
-          адвоката,
-          установленные действующим законодательством и решениями органов адвокатского сообщества и адвокатскими
-          образованиями.
-        </p>
-
-        <p>
-          Под судоднем или днем занятости адвоката понимается время в течение одних календарных суток, когда адвокат
-          выполняет конкретное поручение доверителя, независимо от фактической длительности его работы.
-        </p>
-
-        <p>
-          Юридическая помощь, которая оказывается в нерабочее время (выходные и нерабочие праздничные дни, ночное время,
-          подлежит оплате не менее чем в двойном размере.
-        </p>
-
-        <p>
-          Конкретный размер гонорара адвоката определяется им по соглашению с доверителем и указывается в соглашении об
-          оказании юридической помощи.
-        </p>
+        <img src="img/map.jpg" class="map-img d-lg-none d-block">
       </div>
     </section>
   </main>
+
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <h3 class="header">Оставьте заявку на консультацию</h3>
+        <p class="header-text">Пожалуйста, оставьте Ваши контактные данные и кратко опишите проблему. Я свяжусь с Вами в
+          ближайшее время.</p>
+        <button type="button" class="close d-none d-md-block" data-dismiss="modal" aria-label="Close">
+          <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M14.7928 16.2072L0 31L1.41421 32.4142L16.207 17.6214L31 32.4144L32.4142 31.0002L17.6212 16.2072L32.4142 1.41422L31 0L16.207 14.793L1.41421 0.000152588L5.40495e-07 1.41437L14.7928 16.2072Z"
+              fill="white" />
+          </svg>
+
+        </button>
+        <div class="form">
+          <form>
+            <div class="form-group">
+              <label for="my-input">Имя</label>
+              <input id="name" class="form-control" type="text" placeholder="например, Иван Иванов">
+            </div>
+            <div class="form-group">
+              <label for="my-input">Номер телефона</label>
+              <input id="phone" class="form-control" type="tel" placeholder="+7(999)999-99-99">
+            </div>
+            <div class="form-group">
+              <label for="my-input">Краткая суть проблемы</label>
+              <textarea id="problem" class="form-control" type="text" placeholder="Текст сообщения"></textarea>
+            </div>
+          </form>
+        </div>
+        <button class="btn-main ml-auto col-lg-7 col-md-10 col-12">Оставить заявку</button>
+      </div>
+    </div>
+  </div>
 
 
   <footer>
@@ -444,9 +293,6 @@
     </div>
   </footer>
 
-
-
-
   <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
@@ -463,7 +309,6 @@
   <script src="../js/bootstrap.min.js"></script>
   <script src="../js/flickity.pkgd.min.js"></script>
   <script src="../js/header.js"></script>
-  <script src="js/script.js"></script>
 </body>
 
 </html>
