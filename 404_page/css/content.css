@@ -1,0 +1,60 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #F0F0F5;
+    min-height: 100%;
+}
+
+/*==============first-section============*/
+
+.first-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.error {
+    margin-top: 152px;
+}
+
+.error-404 {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 220px;
+    font-weight: 700;
+    color: #C49236;
+    line-height: 316px;
+    margin-top: 50px;
+}
+
+.error-annotation {
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #818796;
+}
+
+.error-text {
+    font-size: 16px;
+    color: #434548;
+    margin-top: 13px;
+}
+
+.error-link {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 32px;
+}
+
+.error-link a {
+    color: #C49236;
+}
+
+.error-link a:hover {
+    color: #C49236;
+    text-decoration: none;
+}

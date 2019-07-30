@@ -1,0 +1,83 @@
+@media only screen and (max-width: 991px) {
+
+    /* ===========first-section===========*/
+    .breadcrumb {
+        margin-top: 0px;
+    }
+
+    .topic {
+        color: #EEEEF4;
+        font-size: 24px;
+        font-family: 'Noto Serif', serif;
+        width: 240px;
+        letter-spacing: 0;
+        line-height: 31px;
+        margin-top: 32px;
+        margin-bottom: 0;
+    }
+
+    .media {
+        margin-top: 0px;
+    }
+
+    .commas {
+        font-family: 'Noto Serif', serif;
+        font-size: 72px;
+        font-weight: 900;
+        color: #C49236;
+    }
+
+    .media-body {
+        margin-left: 10px;
+        margin-bottom: 64px;
+    }
+
+    /* =======navigation-blog-section======*/
+
+    #container-blog-nav {
+        padding: 0;
+    }
+
+    .navigation-blog-section #filter {
+        width: 100%;
+        display: block;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .navigation-blog-section .nav-link {
+        width: 100%;
+        height: 60px;
+    }
+
+    .navigation-blog-section .nav-item {
+        height: 60px;
+        width: 100%;
+    }
+
+    .navigation-blog-section .nav-pills .nav-link {
+        line-height: 60px;
+    }
+    
+     /* ==============blog-section========*/
+
+    .blog-section .tab-content .tab-pane .row .card-col:not(:nth-child(-n+3)) {
+        display: none;
+    }
+    
+    .btn-main {
+        background: #fff;
+        color: #C49236;
+        width: 100%;
+        margin-top: 32px;
+        margin-bottom: 64px;
+        margin-right: -15px;
+    }
+
+    .btn-main:hover {
+        background: #C49236;
+        color: #fff;
+    }
+    
+    
+}

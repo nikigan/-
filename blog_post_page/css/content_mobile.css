@@ -1,0 +1,129 @@
+@media only screen and (max-width: 991px) {
+
+    /* ===========first-section===========*/
+    .breadcrumb {
+        margin-top: 0px;
+    }
+
+    .first-section .topic {
+        color: #EEEEF4;
+        font-size: 24px;
+        font-family: 'Noto Serif', serif;
+        width: 280px;
+        letter-spacing: 0;
+        line-height: 31px;
+        margin-top: 32px;
+        margin-bottom: 0;
+    }
+
+    .first-section .media {
+        margin-top: 0px;
+    }
+
+    .first-section .commas {
+        font-family: 'Noto Serif', serif;
+        font-size: 72px;
+        font-weight: 900;
+        color: #C49236;
+    }
+
+    .first-section .media-body {
+        margin-left: 10px;
+        margin-bottom: 64px;
+    }
+
+    /*==========article-other==========*/
+
+    .article-left-col {
+        padding-top: 64px;
+    }
+
+    .article-left-text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .article-left-col .media {
+        margin-bottom: 64px;
+    }
+
+    .article-right-col {
+        padding-top: 0px;
+        padding-bottom: 64px;
+    }
+
+    .article-right-text {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .example {
+        height: 319px;
+    }
+
+    .example-annotation {
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .example-topic {
+        font-size: 20px;
+        font-weight: 700;
+        color: #EEEEF4;
+        margin-top: 8px;
+    }
+
+    .example-text {
+        font-size: 16px;
+        font-weight: 300;
+        color: #EEEEF4;
+        margin-top: 16px;
+    }
+
+    .example-link {
+        font-size: 16px;
+        font-weight: 600;
+        color: #C49236;
+    }
+
+    /*==========section-other==========*/
+
+    .section-other {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .section-other h3 {
+        font-size: 24px;
+        margin: auto;
+    }
+
+    .section-other .first-row {
+        margin-bottom: 32px;
+    }
+
+    .section-other .arrows.mobile {
+        margin-top: 32px;
+    }
+
+    .section-other .arrows.mobile .arrow {
+        background: #C49236;
+        border-color: #C49236;
+    }
+
+    .section-other .num-div {
+        margin-top: 32px;
+        border-bottom: 3px #C49236 solid;
+    }
+
+    .section-other .other-num {
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+        margin-left: 32px;
+        margin-right: 32px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+    }
+}

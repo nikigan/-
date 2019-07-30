@@ -1,0 +1,53 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #F0F0F5;
+    min-height: 100%;
+}
+
+/*==============first-section============*/
+
+.first-section {
+    padding-top: 100px;
+    padding-bottom: 270px;
+}
+
+.thankyou-main {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #C49236;
+    line-height: 130%;
+    margin-top: 128px;
+    letter-spacing: 1px;
+}
+
+.thankyou {
+    margin-top: 128px;
+}
+
+.thankyou-text {
+    font-size: 16px;
+    font-weight: normal;
+    color: #434548;
+}
+
+.thankyou-link {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 32px;
+}
+
+.thankyou-link a {
+    color: #C49236;
+}
+
+.thankyou-link a:hover {
+    color: #C49236;
+    text-decoration: none;
+}

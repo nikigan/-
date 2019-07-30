@@ -1,0 +1,225 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #F0F0F5;
+    min-height: 100%;
+}
+
+
+/*==========first-section==========*/
+.first-section {
+    position: relative;
+    background: linear-gradient(314.39deg, #182441 -23.61%, #0B121C 168.1%);
+    padding-top: 100px;
+}
+
+.breadcrumb {
+    padding: 0px;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #C49236;
+}
+
+.breadcrumb .active {
+    color: #959595;
+}
+
+.breadcrumb > li + li:before {
+    padding: 0 5px;
+    color: #C49236;
+    content: "→\00a0";
+}
+
+.topic {
+    color: #EEEEF4;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Noto Serif TC', serif;
+    width: 300px;
+    letter-spacing: 2px;
+    line-height: 47px;
+    margin-top: 64px;
+}
+
+.media {
+    margin-top: 29px;
+}
+
+.commas {
+    font-family: 'Noto Serif', serif;
+    font-size: 72px;
+    font-weight: 900;
+    color: #C49236;
+}
+
+.media-body {
+    font-size: 16px;
+    color: #EEEEF4;
+    margin-top: 35px;
+    margin-left: 30px;
+    line-height: 25px;
+    margin-bottom: 140px;
+}
+
+/*=========navigation-blog-section======*/
+
+.navigation-blog-section {
+    background: #fff;
+}
+
+.navigation-blog-section .nav-link {
+    width: 165px;
+    height: 80px;
+    color: #C49236;
+}
+
+.navigation-blog-section .nav-item {
+    height: 80px;
+}
+
+.navigation-blog-section .nav-pills .nav-link {
+    border-radius: 0;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0;
+    line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navigation-blog-section .nav-pills .nav-link:hover {
+    color: #C49236;
+}
+
+.navigation-blog-section .nav-pills .nav-link.active {
+    background-color: #C49236;
+}
+
+.navigation-blog-section .nav-pills .nav-link.active:hover {
+    color: #EEEEF4;
+}
+
+.navigation-blog-section #filter {
+    font-size: 14px;
+    font-weight: 500;
+    color: #818796;
+    margin-right: 43px;
+}
+
+
+/*=============blog-section===========*/
+
+.blog-section {
+    padding-top: 64px;
+}
+
+.blog-section .card .card-header {
+    position: relative;
+    padding: 0;
+}
+
+.blog-section .card .pin {
+    position: absolute;
+    width: 165px;
+    height: 40px;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(325.58deg, #182441 -23.61%, #0B121C 168.1%);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 40px;
+    text-align: center;
+}
+
+.blog-section .card {
+    max-width: 360px;
+    height: 481px;
+    border-radius: 0;
+    margin-bottom: 32px;
+    transition: all .3s;
+}
+
+.blog-section .card:hover {
+    background: #C49236;
+}
+
+.blog-section .card:hover .text-small,
+.blog-section .card:hover .card-text,
+.blog-section .card:hover .card-link {
+    color: #EEEEF4;
+}
+
+.blog-section .card .card-body {
+    padding: 32px 50px 32px 30px;
+}
+
+.blog-section .card .text-small {
+    font-weight: 400;
+    font-size: 14px;
+    color: #434548;
+}
+
+.blog-section .card .card-text {
+    font-weight: 600;
+    font-size: 16px;
+    color: #182441;
+}
+
+.blog-section .card-link {
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #C49236;
+    text-decoration: none;
+}
+
+.btn-main {
+    display: flex;
+    height: 85px;
+    width: 360px;
+    background: #fff;
+    color: #C49236;
+    text-align: left;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 18px;
+    border: 0;
+    padding: 34px 40px;
+    margin-top: 32px;
+    margin-bottom: 128px;
+    transition: all .3s;
+}
+
+.btn-main::after {
+    font-size: 24px;
+    content: '→';
+    display: block;
+    margin-left: auto;
+}
+
+.btn-main:hover {
+    background: #C49236;
+    color: #fff;
+}

@@ -1,0 +1,17 @@
+@media only screen and (max-width: 991px) {
+    .first-section {
+        padding-top: 55px;
+        padding-bottom: 64px;
+    }
+
+    .thankyou-main {
+        font-size: 36px;
+        line-height: 130%;
+        margin-top: 32px;
+    }
+
+    .thankyou {
+        margin-top: 32px;
+    }
+
+}
