@@ -1,0 +1,325 @@
+@charset "UTF-8";
+h2 {
+  font-family: Noto Serif TC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 130%;
+  color: #eeeef4;
+}
+
+.section-first-block {
+  color: #eeeef4;
+  background: linear-gradient(320.5deg, #182441 -23.61%, #0b121c 168.1%);
+  margin-top: 0;
+  padding-top: 100px;
+  padding-bottom: 128px;
+}
+
+.section-first-block .breadcrumb {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  margin-bottom: 64px;
+  margin-top: 16px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.section-first-block .breadcrumb > li + li::before {
+  content: "→\00a0";
+  color: #c49236;
+}
+
+.section-first-block .breadcrumb a {
+  color: #c49236;
+}
+
+.section-first-block .breadcrumb a.active {
+  color: #eeeef4;
+}
+
+@media (max-width: 576px) {
+  .section-first-block .breadcrumb {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 32px;
+  }
+}
+
+.section-first-block .up-line {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 160%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #818796;
+}
+
+.section-first-block .down-line {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 170%;
+  color: #eeeef4;
+}
+
+.section-first-block .annotation {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 160%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #eeeef4;
+}
+
+.section-first-block .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 32px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 130%;
+  color: #c49236;
+}
+
+.section-first-block .number .big-number {
+  font-weight: normal;
+  font-size: 96px;
+  margin-right: 8px;
+}
+
+.section-first-block .number .number-text {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  max-width: 196px;
+}
+
+.section-case {
+  position: relative;
+  margin-top: 0;
+  padding-top: 128px;
+  padding-bottom: 0;
+}
+
+.section-case .row {
+  margin-bottom: 64px;
+}
+
+.section-case .white-bg {
+  position: absolute;
+  background: #ffffff;
+  width: 60%;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+
+.section-case .case-header {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  color: #182441;
+}
+
+.section-case .case-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 170%;
+  color: #434548;
+}
+
+.section-case .case-text .link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #c49236;
+  padding-left: 15px;
+  margin-top: 32px;
+  display: block;
+  text-decoration: none;
+}
+
+.section-other .first-row {
+  margin-bottom: 64px;
+}
+
+.section-other .arrows {
+  margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-other .arrows .arrow {
+  position: relative;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: none;
+  border: 1px #FFFFFF solid;
+  background: #FFFFFF;
+  width: 83px;
+  height: 83px;
+}
+
+.section-other .arrows .arrow svg {
+  color: #C49236;
+  position: absolute;
+  top: 45%;
+}
+
+.section-other .arrows .arrow:focus {
+  outline: none;
+}
+
+.section-other .card-inner {
+  background-color: #182441;
+  padding: 32px;
+  padding-right: 40px;
+}
+
+.section-other .card-inner span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-other .card-inner .upper-block {
+  min-height: 120px;
+}
+
+.section-other .card-inner .first-line {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  color: #EEEEF4;
+  margin-bottom: 16px;
+}
+
+.section-other .card-inner .second-line {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: #EEEEF4;
+}
+
+.section-other .card-inner .card-link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #C49236;
+  text-decoration: none;
+}
+
+.section-other .btn-main {
+  margin-top: 64px;
+}
+
+.section-other .num-div {
+  margin-top: 32px;
+  border-bottom: 3px #C49236 solid;
+}
+
+.section-other .other-num {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 32px;
+  margin-right: 32px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+@media screen and (max-width: 768px) {
+  .left-block {
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .btn-main {
+    margin-right: -15px;
+  }
+  h2 {
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+  }
+  h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+  }
+  footer {
+    margin-top: 64px;
+  }
+  .section-first-block .up-line {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 160%;
+  }
+  .section-first-block .down-line {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .section-case {
+    background: #ffffff;
+    padding-top: 64px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+  }
+  .section-case .row {
+    margin-bottom: 32px;
+  }
+  .section-case .docs {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-case .case-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .section-other .first-row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-other .arrows.mobile {
+    margin-top: 32px;
+  }
+  .section-other .arrows.mobile .arrow {
+    background: #C49236;
+    border-color: #C49236;
+  }
+}
+/*# sourceMappingURL=main_page.css.map.map */
